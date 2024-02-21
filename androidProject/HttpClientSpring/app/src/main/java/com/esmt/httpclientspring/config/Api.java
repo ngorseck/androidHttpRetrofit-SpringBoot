@@ -30,4 +30,7 @@ public interface Api {
     /*Avec ResponseBody, on obtient ce resultat:
     D/Response: Response{protocol=http/1.1, code=200, message=, url=http://192.168.90.167:8081/api/login?email=seck%40seck.sn&password=passer}
     Log.d("Response :", response.toString());*/
+
+    /*@POST("/api/user")  
+    Call<Result> createUser(@Body RequestBody user);*/
 }
